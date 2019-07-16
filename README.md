@@ -8,5 +8,7 @@ Docker est un logiciel libre permettant facilement de lancer des applications da
 PrestaShop est une application Web open source permettant de créer une boutique en ligne dans le but de réaliser du commerce électronique.
 
 ## Que fait chaque du fichier Dockerfile?
-  shell> docker pull mysql/mysql-server:tag
+To download the MySQL Community Edition image, run this command:
+
+    shell> docker pull mysql/mysql-server:tag
 &nbsp;
