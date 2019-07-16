@@ -73,7 +73,7 @@ Désactivation du site par défaut de apache et activation du site `prestashop.c
 
     EXPOSE 80
 &nbsp;
-On active l'ouverture du port `80` dans les conteneur qui seront créer à partir de cette image.
+On ouvre le port `80` dans les conteneurs qui seront créer à partir de cette image.
 
     ENTRYPOINT ["/var/www/prestashop/run.sh"]
 &nbsp;
