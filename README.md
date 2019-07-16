@@ -11,3 +11,4 @@ PrestaShop est une application Web open source permettant de créer une boutique
 
     FROM ubuntu:18.04
 &nbsp;
+Permet de spécifier l'image à partir duquel notre image prestashop sera construite. Ici on utilisera `ubuntu` version `18.04`
