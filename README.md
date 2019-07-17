@@ -71,12 +71,9 @@ On copie le fichier `prestashop.conf` dans le dossier `/etc/apache2/sites-availa
 &nbsp;
 Désactivation du site par défaut de apache et activation du site `prestashop.conf`.
 
-<<<<<<< HEAD
     RUN a2enmod rewrite
 &nbsp;
 Activation du `mod_rewrite` de apache
-=======
->>>>>>> 45308b7e69abef2da03c7e943b40bab4fd9f4543
     EXPOSE 80
 &nbsp;
 On ouvre le port `80` dans les conteneurs qui seront créer à partir de cette image.
