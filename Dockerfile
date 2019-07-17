@@ -34,6 +34,8 @@ COPY prestashop.conf /etc/apache2/sites-available/
 
 RUN a2dissite 000-default.conf && a2ensite prestashop.conf
 
+RUN a2enmod rewrite
+
 EXPOSE 80
 
-ENTRYPOINT ["/var/www/prestashop/run.sh" ]
+ENTRYPOINT ["/var/www/prestashop/run.sh"]
